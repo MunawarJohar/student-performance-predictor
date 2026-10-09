@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+input[type="range"] {
+  accent-color: #16213e;
+}
+
+:focus-visible {
+  outline: 3px solid #16213e;
+  outline-offset: 2px;
+}
+
+/* Range slider: ink fill, highlighter handle */
+.range {
+  --pct: 50%;
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  cursor: pointer;
+  background: linear-gradient(to right, #16213e 0, #16213e var(--pct), #cbd3e3 var(--pct), #cbd3e3 100%);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  background: #ffd84a;
+  border: 2px solid #16213e;
+  cursor: pointer;
+}
+.range::-moz-range-thumb {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background: #ffd84a;
+  border: 2px solid #16213e;
+  cursor: pointer;
+}
+.range::-moz-range-track {
+  background: transparent;
+}
+.range:focus-visible {
+  outline: 3px solid #16213e;
+  outline-offset: 8px;
+}

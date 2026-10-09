@@ -1,0 +1,18 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Trained models and data (recreated by `python train.py`)
+backend/model/
+backend/data/*.csv
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.env
+.env.local
+next-env.d.ts
