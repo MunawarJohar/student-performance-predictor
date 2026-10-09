@@ -104,11 +104,10 @@ Free backend tiers may sleep when idle, so the first request can be slow.
   weak model they can look counterintuitive.
 - Predictions should support a conversation with a student, not replace judgment.
 
-## Next steps
+## ScreenShots 
+<img width="1656" height="5364" alt="localhost_3000_ (1)" src="https://github.com/user-attachments/assets/88870dc5-dbad-4bcb-928a-f5afb44cfaff" />
+<img width="1656" height="3738" alt="localhost_3000_ (2)" src="https://github.com/user-attachments/assets/d1acbee0-b612-45ea-b46d-d7c51dd8d2cb" />
+<img width="1656" height="5364" alt="localhost_3000_" src="https://github.com/user-attachments/assets/acbb3b80-0b43-4f1d-9cc0-4d03e4d08e7e" />
 
-- Repeated cross-validation, baselines, and significance tests
-- Explainability (permutation importance, SHAP) and subgroup fairness checks
-- Use all 30+ original features, and test on the Portuguese-language dataset
-"# student-performance-predictor" 
-"# student-performance-predictor" 
-"# student-performance-predictor" 
+
+
